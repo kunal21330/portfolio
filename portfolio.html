@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal's Personal Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <button id="toggle-btn" class="toggle-btn">Toggle Dark Mode</button>
+    <header>
+        <h1>Kunal's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        
+        <section id="about" class="section">
+            <div class="photo-container">
+                <img src="profile.png" alt="Kunal's Photo">
+            </div>
+            <h2>About Me</h2>
+            <p>Hi, I'm Kunal. I am currently pursuing my B.Tech in Computer Science and Design at the Indraprastha Institute of Information Technology. I have a strong background in operations and marketing, programming, social media management, problem-solving, and strategic planning.</p>
+            <p>In addition to my technical skills, I have significant experience in managing and organizing events. I successfully managed and organized eSummit IIITD, fostering connections and promoting innovation. As a member of the IIITD Hostel Committee, I worked to ensure a harmonious environment by promoting unity and community among students.</p>
+            <p>I am also an active contributor to the IIITD Cultural Council, where I organize diverse cultural events and promote artistic expression within the college community.</p>
+            <p>I recently secured a top 4 rank in L&T Createch, a national level hackathon with over 15,000 participants, showcasing my ability to innovate and perform under pressure.</p>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>Tank Star Game:</strong> Created a 1V1 game in Java using LibGDX, incorporating object-oriented programming concepts.</li>
+                <li><strong>DOT:</strong> Developed a mobile app revolutionizing the trucking industry with real-time updates, training programs, and driver support.</li>
+                <li><strong>Sui Dhaga:</strong> An application aimed at reducing clothing waste through an online platform. Presented this idea at the ACM and SIGCHI’s HCI conference at IIT Bombay.</li>
+                <li><strong>LegalEase:</strong> Developed a project named LegalEase that summarizes legal documents and offers query-answering via a chatbot. It uses models like T5-transformer, Facebook-BART, Legal Pegasus, and Pegasus, fine-tuned on an Indian legal dataset to provide clear, comprehensible summaries and interactive Q&A in both text and audio formats, including Hindi.</li>
+            </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li>Programming Languages: Java, Python, C, C++, HTML, CSS, MySQL</li>
+                <li>Tools and Technologies: Figma, Miro, Canva, Adobe Premiere Pro, Git, LibGDX</li>
+            </ul>
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>Manager, Entrepreneurship Summit IIITD:</strong> Successfully managed and organized eSummit IIITD, fostering connections and promoting innovation. Worked with the director to establish the first E-summit at our university, featuring speakers like Ashneer Grover and Nishchay Malhan.</li>
+                <li><strong>Hostel Committee Member, IIITD:</strong> Played a key role in promoting unity and fostering a sense of community among students.</li>
+                <li><strong>Cultural Council Member, IIITD:</strong> Organized diverse cultural events and promoted artistic expression within the college community.</li>
+                <li><strong>Convocation '22 Organizing Team Member:</strong> Coordinated a memorable graduation ceremony for the graduating students.</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch with me, feel free to reach out via email or visit my LinkedIn profile.</p>
+            <p><strong>Email:</strong> kunal21330@iiitd.ac.in</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saprakunal/" target="_blank">linkedin.com/in/saprakunal</a></p>
+            <p><strong>Address:</strong> 157/24-Arya Nagar Colony, Hansi, Hisar-125033</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kunal. All rights reserved.</p>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleBtn = document.getElementById('toggle-btn');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    });
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
